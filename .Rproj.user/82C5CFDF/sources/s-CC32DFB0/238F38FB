@@ -1,0 +1,23 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1565625490957.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "562589557",
+    "id" : "238F38FB",
+    "lastKnownWriteTime" : 1565625462,
+    "last_content_update" : 1565625462,
+    "path" : "E:/blogs/oatanzania/config.toml",
+    "project_path" : "config.toml",
+    "properties" : {
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "toml"
+}
