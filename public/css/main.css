@@ -275,9 +275,10 @@ nav .block .navbar-default .navbar-nav > .active > a:hover:before {
   background: #F6F6F6;
 }
 #about-us .block {
-  text-align: center;
+  text-align: left;
 }
 #about-us .block p {
+  font-family: Andika;	serif	
   color: #959595;
   font-size: 16px;
   line-height: 26px;

@@ -4,7 +4,7 @@ title = "Ocean Acidification Observation in Tanzanian Coastal Waters"
 theme = "restaurant-hugo"
 summaryLength = "7"
 
-
+ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 
 # Menu
 [menu]
@@ -24,20 +24,20 @@ summaryLength = "7"
     URL = "blog"
     weight = 3
 
-    [[menu.nav]]
-    name = "Price"
-    URL = "price"
-    weight = 4
+    #[[menu.nav]]
+    #name = "Price"
+    #URL = "price"
+    #weight = 4
 
-    [[menu.nav]]
-    name = "News"
-    URL = "subscribe"
-    weight = 5
+    #[[menu.nav]]
+    #name = "News"
+    #URL = "subscribe"
+    #weight = 5
 
     [[menu.nav]]
     name = "Contact Us"
     URL = "contact-us"
-    weight = 6
+    weight = 4
 
 
 
@@ -56,92 +56,90 @@ url =  "images/header2.jpg"
 
 [params.gallery]
 enable = true
-title= "Featured <span>Menu</span>"
+title= " <span>Gallery</span>"
 
 [[params.gallery.item]]
-img = "images/slider/slider-img-1.jpg"
+img = "images/slider/blog-img-11.jpg"
 
 [[params.gallery.item]]
-img = "images/slider/slider-img-2.jpg"
+img = "images/slider/slider-img-22.jpg"
 
 [[params.gallery.item]]
-img = "images/slider/slider-img-3.jpg"
+img = "images/slider/slider-img-33.jpg"
 
 [[params.gallery.item]]
-img = "images/slider/slider-img-4.jpg"
+img = "images/slider/slider-img-44.jpg"
 
 [[params.gallery.item]]
-img = "images/slider/slider-img-1.jpg"
+img = "images/slider/slider-img-55.jpg"
 
 [[params.gallery.item]]
-img = "images/slider/slider-img-2.jpg"
+img = "images/slider/slider-img-6.jpg"
 
 [[params.gallery.item]]
-img = "images/slider/slider-img-3.jpg"
+img = "images/slider/slider-img-7.jpg"
 
 
 [params.about]
 enable = true
-title= "Featured Your <span> Restaurant’s</span> Website Has To Look Good"
-bgImage = "images/cooker-img.png"
-description= "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in </br>voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat Ut enim ad minim veniam"
-
-
+title= "<span> Ocean Acidification</span> observation in Coastal Waters of Tanzania"
+bgImage = "images/kim_george_igulu.jpg"
+description= "The world’s oceans – their temperature, chemistry, currents and life – drive global systems that make the Earth habitable for humankind. How we manage this vital resource is essential for humanity as a whole, and to counterbalance the effects of climate change.  Over three billion people depend on marine and coastal biodiversity for their livelihoods. However, today we are seeing 30 percent of the world’s fish stocks overexploited, reaching below the level at which they can produce sustainable yields.  Oceans also absorb about 30 percent of the carbon dioxide produced by humans, and we are seeing a 26 percent rise in ocean acidification since the beginning of the industrial revolution. Marine pollution, an overwhelming majority of which comes from land-based sources, is reaching alarming levels, with an average of 13,000 pieces of plastic litter to be found on every square kilometre of ocean.The SDGs aim to sustainably manage and protect marine and coastal ecosystems from pollution, as well as address the impacts of ocean acidification. Enhancing conservation and the sustainable use of ocean-based resources through international law will also help mitigate some of the challenges facing our oceans."
 
 
 #food Menu
 
-[params.foodMenu]
-enable = true
-title = "Our Easy <span>PRICE</span>"
-description= " Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco"
-subtitle = "FEATURED ON THE WEEK"
+#[params.foodMenu]
+#enable = true
+#title = "Our Easy <span>PRICE</span>"
+#description= " Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco"
+#subtitle = "FEATURED ON THE WEEK"
 
 [[params.foodMenu.item]]
-title="Pancakes n' Such Titas"
-description= "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim&&"
-price = "$ 125.00"
+#title="Pancakes n' Such Titas"
+#description= "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim&&"
+#price = "$ 125.00"
 
 [[params.foodMenu.item]]
-title="Caesar Salad"
-description= "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim&&"
-price = "$ 100.00"
+#title="Caesar Salad"
+#description= "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim&&"
+#price = "$ 100.00"
 
 [[params.foodMenu.item]]
-title="Steak with a Garlic and Parsley Risotto"
-description= "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim&&"
-price = "$ 20.00"
+#title="Steak with a Garlic and Parsley Risotto"
+#description= "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim&&"
+#price = "$ 20.00"
 
 [[params.foodMenu.item]]
-title="Meat of Skewers"
-description= "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim&&"
-price = "$ 45.00"
+#title="Meat of Skewers"
+#description= "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim&&"
+#price = "$ 45.00"
 
 [[params.foodMenu.item]]
-title="Pancakes n' Such"
-description= "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim&&"
-price = "$ 25.00"
+#title="Pancakes n' Such"
+#description= "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim&&"
+#price = "$ 25.00"
 
 
 
 #subscription
 
 [params.subscription]
-enable = true
-title= "SUBSCRIBE to our <span>NEWSLETTER</span>"
-description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod"
+#enable = true
+#title= "SUBSCRIBE to our <span>NEWSLETTER</span>"
+#description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod"
 
 #Mailchimp subscription configaration 
-formAction = "https://themefisher.us9.list-manage.com/subscribe/post?u=f95ece2732a6e9925f2e70a61&amp;id=b1e227529e"
-formName = "b_f95ece2732a6e9925f2e70a61_b1e227529e"
+#formAction = "https://themefisher.us9.list-manage.com/subscribe/post?u=f95ece2732a6e9925f2e70a61&amp;id=b1e227529e"
+#formName = "b_f95ece2732a6e9925f2e70a61_b1e227529e"
 
 #Contact 
 
 [params.contact]
 enable = true
-title= "our <span> Contact Us </span>"
+title= "<span> Contact Us </span>"
 subtitle= "SIGN UP FOR EMAIL ALERTS"
-description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod"
+description = "You can simply drop your message by filling in the form"
 
 
 #Footer 
@@ -154,19 +152,20 @@ galleryTitle = "PHOTO <span>STREAM</span>"
 socialTitle = "Follow <span>US</span>"
 
 [[params.footer.contactItem]]
-title="Telephone"
+title="Mobile"
 icon = "fa fa-phone"
-content = "016742 323313"
+content = "+255 786 451 468"
 
 [[params.footer.contactItem]]
 title="Address"
 icon = "fa fa-map-marker"
-content = "2046 Blue Spruce Lane Laurel Canada"
+content = "P.O.Box 9750, Kunduchi, Dar es Salaam"
 
 [[params.footer.contactItem]]
 title="E mail"
 icon = "fa fa-envelope"
-content = "rest@gmail.com - rest@mail.ru"
+content = "ismaelkimirei@tafiri.go.tz"
+
 
 [[params.footer.socialLink]]
 icon = "facebook"
