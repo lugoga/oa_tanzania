@@ -79,6 +79,12 @@ img = "images/slider/slider-img-6.jpg"
 [[params.gallery.item]]
 img = "images/slider/slider-img-7.jpg"
 
+[[params.gallery.item]]
+img = "images/slider/blog-img-11.jpg"
+
+[[params.gallery.item]]
+img = "images/slider/slider-img-22.jpg"
+
 
 [params.about]
 enable = true
@@ -169,20 +175,20 @@ content = "ismaelkimirei@tafiri.go.tz"
 
 [[params.footer.socialLink]]
 icon = "facebook"
-link = "https://fb.com/themefisher"
+link = "/"
 
 
 [[params.footer.socialLink]]
 icon = "twitter"
-link = "https://fb.com/themefisher"
+link = "/"
 
 [[params.footer.socialLink]]
 icon = "dribbble"
-link = "https://fb.com/themefisher"
+link = "/"
 
 [[params.footer.socialLink]]
 icon = "instagram"
-link = "https://fb.com/themefisher"
+link = "/"
 
 
 #Footer Copyright
@@ -190,7 +196,7 @@ link = "https://fb.com/themefisher"
 #Footer Copyright Text
 [params.footerCopyright]
 enable = true
-Text = "Copyright 2019 - All Rights Reserved.Design and Developed By Masumbuko Semba"
+Text = "@2019 Ocean Acidification Tanzania. Designed By Masumbuko Semba"
 
 
 
@@ -198,7 +204,7 @@ Text = "Copyright 2019 - All Rights Reserved.Design and Developed By Masumbuko S
 #blog 
 [params.blog]
 enable = true
-title = "Latest <span>From</span> the <span>Blog</span>"
+title = "Latest <span>Blog</span> posts"
 
 
 

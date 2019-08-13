@@ -1,7 +1,7 @@
 ---
 title: Ecosystems under Decreasing pH
 author: Ismael Kimirei
-date: '2019-08-12'
+date: '2019-08-01'
 image: images/blog/blog-img-health.jpg 
 slug: decreasing-ph-and-its-impact-to-coastal-ecocystems-in-coasatl-water-of-tanzania
 categories: []
