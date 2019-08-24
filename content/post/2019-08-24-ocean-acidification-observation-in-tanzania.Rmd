@@ -1,0 +1,35 @@
+---
+title: 'Ocean Acidification in Tanzania '
+author: Ismael Kimirei
+date: '2019-08-24'
+image: images/blog/group_photo.jpg 
+slug: ocean-acidification-observation-in-tanzania
+categories: []
+tags:
+  - Ocean acidification
+  - TAFIRI
+  - Buoy
+  - WIOMSA
+  - SDG 14.3
+  - Tanzania
+---
+TAFIRI introduces new project to monitor ocean acidification in Tanzania. 
+The project, funded by the Western Indian Ocean Marine Science Association (WIOMSA), will use state-of-the-art technology to measure high-frequency temperature, dissolved oxygen, pH and weather data. A buoy with a chain of sensors to measure these parameters will be deployed in waters off the Mbudya Island (map \@ref(fig:map)) within the Dar es Salaam Marine protected area. <br></br>
+
+
+```{r map,echo=FALSE, warning=FALSE,message=FALSE, fig.cap="OA-Tanzania buoy location"}
+require(magrittr)
+buoy.location =  data.frame(lon = 39.28076, lat = -6.64909, depth = "Approximately 54")
+
+leaflet::leaflet(data = buoy.location) %>%
+  leaflet::addTiles() %>%
+  # leaflet.extras::addDrawToolbar() %>%
+  leaflet::addMarkers(lng = ~lon, lat = ~lat, popup = ~depth) %>%
+  leaflet::addMeasure(primaryLengthUnit = "kilometers", primaryAreaUnit = "meters")%>%
+  leafem::addMouseCoordinates()
+```
+
+<br></br>
+The project, dubbed "OA-Tanzania",  will also collect nutrients and other physical parameters to understand not only coastal acidification, but also coastal eutrophication in the changing environment.
+Because the waters in which the buoy will be deployed is within an area used by artisanal fishers in Dar es Salaam, on August 23rd, TAFIRI held a stakeholders' meeting to introduce the project and its activities to fishing communities and other ocean users. The meeting was graced by Dr. Hamisi Nikuli, who was representing the permanent secretary of the Ministry of Livestock and Fisheries (MLF) of Tanzania. <br></br>
+Also in attendance was the representative of the Kinondoni District Commissioner, the Director General of TAFIRI, representative of the Director of Environment under the Tanzania's Vice President's Office (VPO), representative for the National Environmental Management Council, the environmental desk at the MLF, Kinondoni District Fisheries Officer, the Tanzania Marine Parks and Reserve, Tanzania Shipping Agencies Cooperation (TASAC), Wetland International, and the Beach Management Units (BMUs) leaders, among many other. 

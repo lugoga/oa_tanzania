@@ -6,9 +6,64 @@
     <description>Recent content in Tags on Ocean Acidification Observation in Tanzanian Coastal Waters</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <lastBuildDate>Sat, 24 Aug 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Buoy</title>
+      <link>/tags/buoy/</link>
+      <pubDate>Sat, 24 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/buoy/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ocean acidification</title>
+      <link>/tags/ocean-acidification/</link>
+      <pubDate>Sat, 24 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/ocean-acidification/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>SDG 14.3</title>
+      <link>/tags/sdg-14.3/</link>
+      <pubDate>Sat, 24 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/sdg-14.3/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>TAFIRI</title>
+      <link>/tags/tafiri/</link>
+      <pubDate>Sat, 24 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/tafiri/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tanzania</title>
+      <link>/tags/tanzania/</link>
+      <pubDate>Sat, 24 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/tanzania/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>WIOMSA</title>
+      <link>/tags/wiomsa/</link>
+      <pubDate>Sat, 24 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/wiomsa/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>
